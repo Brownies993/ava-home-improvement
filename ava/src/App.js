@@ -17,8 +17,7 @@ const App = () => (
       <Footer />
     </div>
   </Router>
-)
-
+    );
 // class App extends Component {
 //   render() {
 //     return (

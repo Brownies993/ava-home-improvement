@@ -10,9 +10,10 @@ import { Container, Divider } from 'semantic-ui-react'
           <li><Link to="/">Home</Link></li>
         </ul>
         <div>
-    <Container textAlign='left'>Left Aligned</Container>
-    <Container textAlign='center'>Center Aligned</Container>
-    <Container textAlign='right'>Right Aligned</Container>
+    <Hero backgroundImage="/src/components/img/images.jpg"></Hero>
+      </div>
+        <div>
+    <Container textAlign='center'>About Us</Container>
     <Container textAlign='justified'>
       <b>Justified</b>
       <Divider />
