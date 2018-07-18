@@ -2,27 +2,20 @@
   "name": "ava",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://Brownies993.github.io/ava-home-improvement",
   "dependencies": {
-    "bootstrap": "^4.1.1",
-    "express": "^4.16.3",
-    "mongoose": "^5.2.4",
+    "gh-pages": "^1.2.0",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-router-dom": "^4.3.1",
-    "react-scripts": "1.1.4",
-    "reactstrap": "^6.3.0",
-    "semantic-ui-react": "^0.82.0"
+    "react-scripts": "1.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
-  },
-  "description": "We are a company that serve others in repairing homes so that our constumer can live comfortly.",
-  "main": "index.js",
-  "devDependencies": {},
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  }
 }

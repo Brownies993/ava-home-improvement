@@ -1,22 +1,17 @@
-footer {
-  background: darkorange;
-  border-top: 5px solid yellow;
-  color: black;
-  text-align: center;
-  padding: 50px;
-  margin-top: 65px;
-  position: fixed, sticky; 
-  bottom: inherit;
+.footer {
+  min-height: 100px;
+  background: #E5E5E5;
+  position: fixed;
   left: 0;
-  right: 0;
+  bottom: 0;
   width: 100%;
 }
 
 .footer span {
-  position: fixed;
+  position: absolute;
   bottom: 0;
   left: 0;
   right: 0;
-  padding: 10px;
-  background: gray;
+  padding: 5px;
+  background: #B8B8B8;
 }
