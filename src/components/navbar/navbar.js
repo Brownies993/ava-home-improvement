@@ -11,6 +11,13 @@ const Navbar = props => {
             <NavLink className="nav-link" to="/about" activeClassName="active">About </NavLink>
           </li>
         </ul>
+        <div className="collapse navbar-collapse" id="navbarNav">
+         <ul className="navbar-nav">
+          <li className="nav-item active">
+            <NavLink className="nav-link" to="/gallery" activeClassName="active">Gallery </NavLink>
+          </li>
+        </ul> 
+        </div>
       </div>
     </nav>
   )
