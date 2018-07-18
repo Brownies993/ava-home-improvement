@@ -1,0 +1,22 @@
+footer {
+  background: darkorange;
+  border-top: 5px solid yellow;
+  color: black;
+  text-align: center;
+  padding: 50px;
+  margin-top: 65px;
+  position: fixed, sticky; 
+  bottom: inherit;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+
+.footer span {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 10px;
+  background: gray;
+}
