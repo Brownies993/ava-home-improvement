@@ -1,5 +1,5 @@
 import React from "react";
-import Img from "../components/img/jeffrey-hamilton-571430-unsplash.jpg";
+// import Img from "../components/img/jeffrey-hamilton-571430-unsplash.jpg";
 // import footer from "../components/footer";
 import Hero from "../components/Hero";
 import home from "./home";
@@ -21,7 +21,7 @@ const About = () => (
         <Container textAlign='center'>
           <Divider />
           <div>
-            <Hero backgroundImage={Img}>
+            <Hero backgroundImage="./assets/img/jeffrey-hamilton-571430-unsplash.jpg">
               <h2 className="us">About Us!</h2>
             </Hero>
             <Container style={{ marginTop: 30 }}>
